@@ -2,7 +2,7 @@ languege: java
 jdk:
   - openjdk11
 
-braches:
+branches:
   only:
     - master
 
