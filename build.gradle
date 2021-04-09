@@ -20,10 +20,6 @@ group 'org.example'
 version '1.0-SNAPSHOT'
 sourceCompatibility = 11
 
-bootJar {
-    mainClassName('org.example.bootaws.Application')
-}
-
 repositories {
     mavenCentral()
     jcenter()
