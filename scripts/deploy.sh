@@ -5,6 +5,7 @@ PROJECT_NAME=boot-aws
 
 echo "> Build 파일 복사"
 
+cd $REPOSITORY
 rm -rf $REPOSITORY/*.jar
 cp $REPOSITORY/zip/*.jar $REPOSITORY/
 
