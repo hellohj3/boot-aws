@@ -50,3 +50,7 @@ dependencies {
     /* mariaDB */
     compile('org.mariadb.jdbc:mariadb-java-client')
 }
+
+test {
+    useJUnitPlatform()
+}
